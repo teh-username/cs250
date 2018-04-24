@@ -1,0 +1,291 @@
+sysbench 1.0.14 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1024KiB
+  total size: 3788800MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+[ 1s ] 29257.38 MiB/sec
+[ 2s ] 31612.16 MiB/sec
+[ 3s ] 30177.35 MiB/sec
+[ 4s ] 31316.22 MiB/sec
+[ 5s ] 31349.02 MiB/sec
+[ 6s ] 32373.95 MiB/sec
+[ 7s ] 33946.30 MiB/sec
+[ 8s ] 33437.50 MiB/sec
+[ 9s ] 32434.91 MiB/sec
+[ 10s ] 33298.20 MiB/sec
+[ 11s ] 32433.73 MiB/sec
+[ 12s ] 33182.88 MiB/sec
+[ 13s ] 33308.03 MiB/sec
+[ 14s ] 34275.10 MiB/sec
+[ 15s ] 32563.21 MiB/sec
+[ 16s ] 17253.01 MiB/sec
+[ 17s ] 13141.64 MiB/sec
+[ 18s ] 13996.95 MiB/sec
+[ 19s ] 12736.22 MiB/sec
+[ 20s ] 13366.54 MiB/sec
+[ 21s ] 14501.65 MiB/sec
+[ 22s ] 11906.13 MiB/sec
+[ 23s ] 14592.20 MiB/sec
+[ 24s ] 11653.07 MiB/sec
+[ 25s ] 10921.50 MiB/sec
+[ 26s ] 12679.32 MiB/sec
+[ 27s ] 11208.93 MiB/sec
+[ 28s ] 12372.75 MiB/sec
+[ 29s ] 12643.96 MiB/sec
+[ 30s ] 14346.72 MiB/sec
+[ 31s ] 13227.11 MiB/sec
+[ 32s ] 10494.40 MiB/sec
+[ 33s ] 10014.98 MiB/sec
+[ 34s ] 10026.90 MiB/sec
+[ 35s ] 9701.66 MiB/sec
+[ 36s ] 10450.61 MiB/sec
+[ 37s ] 10256.49 MiB/sec
+[ 38s ] 10414.82 MiB/sec
+[ 39s ] 11700.05 MiB/sec
+[ 40s ] 12534.97 MiB/sec
+[ 41s ] 12041.06 MiB/sec
+[ 42s ] 13277.02 MiB/sec
+[ 43s ] 13138.51 MiB/sec
+[ 44s ] 11807.79 MiB/sec
+[ 45s ] 12466.74 MiB/sec
+[ 46s ] 14148.86 MiB/sec
+[ 47s ] 12971.66 MiB/sec
+[ 48s ] 11684.65 MiB/sec
+[ 49s ] 14103.27 MiB/sec
+[ 50s ] 13411.21 MiB/sec
+[ 51s ] 12356.92 MiB/sec
+[ 52s ] 13397.63 MiB/sec
+[ 53s ] 13813.22 MiB/sec
+[ 54s ] 14397.52 MiB/sec
+[ 55s ] 13946.98 MiB/sec
+[ 56s ] 13478.14 MiB/sec
+[ 57s ] 11977.63 MiB/sec
+[ 58s ] 10391.14 MiB/sec
+[ 59s ] 10200.79 MiB/sec
+Total operations: 1046588 (17442.52 per second)
+
+1046588.00 MiB transferred (17442.52 MiB/sec)
+
+
+General statistics:
+    total time:                          60.0008s
+    total number of events:              1046588
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.22
+         max:                                  100.03
+         95th percentile:                        0.14
+         sum:                               234341.83
+
+Threads fairness:
+    events (avg/stddev):           261647.0000/1865.82
+    execution time (avg/stddev):   58.5855/0.12
+
+sysbench 1.0.14 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1024KiB
+  total size: 3788800MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+[ 1s ] 24346.83 MiB/sec
+[ 2s ] 24216.21 MiB/sec
+[ 3s ] 26814.90 MiB/sec
+[ 4s ] 29873.91 MiB/sec
+[ 5s ] 30257.06 MiB/sec
+[ 6s ] 29869.08 MiB/sec
+[ 7s ] 30205.94 MiB/sec
+[ 8s ] 30184.79 MiB/sec
+[ 9s ] 30476.94 MiB/sec
+[ 10s ] 30135.47 MiB/sec
+[ 11s ] 30600.85 MiB/sec
+[ 12s ] 31374.86 MiB/sec
+[ 13s ] 31903.33 MiB/sec
+[ 14s ] 31123.04 MiB/sec
+[ 15s ] 25712.10 MiB/sec
+[ 16s ] 15245.77 MiB/sec
+[ 17s ] 12592.94 MiB/sec
+[ 18s ] 10907.25 MiB/sec
+[ 19s ] 10691.27 MiB/sec
+[ 20s ] 10337.29 MiB/sec
+[ 21s ] 9944.28 MiB/sec
+[ 22s ] 9948.42 MiB/sec
+[ 23s ] 12503.16 MiB/sec
+[ 24s ] 12068.21 MiB/sec
+[ 25s ] 12614.32 MiB/sec
+[ 26s ] 11640.39 MiB/sec
+[ 27s ] 12110.51 MiB/sec
+[ 28s ] 12936.19 MiB/sec
+[ 29s ] 14373.04 MiB/sec
+[ 30s ] 13974.30 MiB/sec
+[ 31s ] 6487.34 MiB/sec
+[ 32s ] 8880.09 MiB/sec
+[ 33s ] 13365.16 MiB/sec
+[ 34s ] 13115.27 MiB/sec
+[ 35s ] 10099.59 MiB/sec
+[ 36s ] 13552.94 MiB/sec
+[ 37s ] 13331.65 MiB/sec
+[ 38s ] 9345.22 MiB/sec
+[ 39s ] 11405.82 MiB/sec
+[ 40s ] 11506.08 MiB/sec
+[ 41s ] 13983.72 MiB/sec
+[ 42s ] 13202.15 MiB/sec
+[ 43s ] 12578.18 MiB/sec
+[ 44s ] 13357.08 MiB/sec
+[ 45s ] 12898.66 MiB/sec
+[ 46s ] 14745.90 MiB/sec
+[ 47s ] 12421.85 MiB/sec
+[ 48s ] 12489.19 MiB/sec
+[ 49s ] 12841.23 MiB/sec
+[ 50s ] 12053.98 MiB/sec
+[ 51s ] 11343.91 MiB/sec
+[ 52s ] 13584.75 MiB/sec
+[ 53s ] 14205.79 MiB/sec
+[ 54s ] 13975.40 MiB/sec
+[ 55s ] 14376.96 MiB/sec
+[ 56s ] 13557.90 MiB/sec
+[ 57s ] 14703.18 MiB/sec
+[ 58s ] 14848.20 MiB/sec
+[ 59s ] 14801.64 MiB/sec
+Total operations: 1000832 (16679.96 per second)
+
+1000832.00 MiB transferred (16679.96 MiB/sec)
+
+
+General statistics:
+    total time:                          60.0007s
+    total number of events:              1000832
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.23
+         max:                                  104.02
+         95th percentile:                        0.15
+         sum:                               234329.36
+
+Threads fairness:
+    events (avg/stddev):           250208.0000/2327.06
+    execution time (avg/stddev):   58.5823/0.03
+
+sysbench 1.0.14 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1024KiB
+  total size: 3788800MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+[ 1s ] 31209.66 MiB/sec
+[ 2s ] 31445.57 MiB/sec
+[ 3s ] 31015.58 MiB/sec
+[ 4s ] 29031.62 MiB/sec
+[ 5s ] 26242.12 MiB/sec
+[ 6s ] 23689.63 MiB/sec
+[ 7s ] 22410.03 MiB/sec
+[ 8s ] 27205.65 MiB/sec
+[ 9s ] 27125.66 MiB/sec
+[ 10s ] 27648.89 MiB/sec
+[ 11s ] 28036.40 MiB/sec
+[ 12s ] 29777.61 MiB/sec
+[ 13s ] 30554.87 MiB/sec
+[ 14s ] 31017.42 MiB/sec
+[ 15s ] 27504.62 MiB/sec
+[ 16s ] 15748.78 MiB/sec
+[ 17s ] 13532.32 MiB/sec
+[ 18s ] 13099.88 MiB/sec
+[ 19s ] 11830.83 MiB/sec
+[ 20s ] 9353.90 MiB/sec
+[ 21s ] 14617.85 MiB/sec
+[ 22s ] 13882.20 MiB/sec
+[ 23s ] 13263.90 MiB/sec
+[ 24s ] 12826.31 MiB/sec
+[ 25s ] 10704.93 MiB/sec
+[ 26s ] 11110.41 MiB/sec
+[ 27s ] 6409.95 MiB/sec
+[ 28s ] 8932.03 MiB/sec
+[ 29s ] 14611.07 MiB/sec
+[ 30s ] 13541.15 MiB/sec
+[ 31s ] 13245.73 MiB/sec
+[ 32s ] 13452.22 MiB/sec
+[ 33s ] 12663.72 MiB/sec
+[ 34s ] 13680.46 MiB/sec
+[ 35s ] 11479.68 MiB/sec
+[ 36s ] 13812.51 MiB/sec
+[ 37s ] 14478.61 MiB/sec
+[ 38s ] 14225.96 MiB/sec
+[ 39s ] 13816.37 MiB/sec
+[ 40s ] 13369.20 MiB/sec
+[ 41s ] 13887.79 MiB/sec
+[ 42s ] 14275.13 MiB/sec
+[ 43s ] 14524.29 MiB/sec
+[ 44s ] 14717.74 MiB/sec
+[ 45s ] 13173.56 MiB/sec
+[ 46s ] 14117.89 MiB/sec
+[ 47s ] 13127.36 MiB/sec
+[ 48s ] 12198.99 MiB/sec
+[ 49s ] 12472.92 MiB/sec
+[ 50s ] 13197.05 MiB/sec
+[ 51s ] 13602.93 MiB/sec
+[ 52s ] 10117.27 MiB/sec
+[ 53s ] 11276.29 MiB/sec
+[ 54s ] 13243.78 MiB/sec
+[ 55s ] 11361.45 MiB/sec
+[ 56s ] 9571.91 MiB/sec
+[ 57s ] 9789.23 MiB/sec
+[ 58s ] 9634.22 MiB/sec
+[ 59s ] 11259.99 MiB/sec
+Total operations: 988010 (16466.29 per second)
+
+988010.00 MiB transferred (16466.29 MiB/sec)
+
+
+General statistics:
+    total time:                          60.0006s
+    total number of events:              988010
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.24
+         max:                                  160.11
+         95th percentile:                        0.17
+         sum:                               234399.73
+
+Threads fairness:
+    events (avg/stddev):           247002.5000/1533.30
+    execution time (avg/stddev):   58.5999/0.08
+

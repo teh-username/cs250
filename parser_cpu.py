@@ -1,6 +1,6 @@
 import glob
 from matplotlib import pyplot
-import sys
+
 
 def get_data(line):
     '''
@@ -80,6 +80,8 @@ def plot_latency(dataset, loc):
     pyplot.savefig('{}lat.png'.format(loc), bbox_inches='tight')
 
 if __name__ == '__main__':
+    # glob.glob('./data/cpu/stress_[01]_?/*.log')
+    # glob.glob('./data/cpu/stress_?_[01]/*.log')
     for path in sorted(glob.glob('./data/cpu/*/*.log')):
         print('Generating ', path)
         loc = "/".join(path.split('/')[:-1]) + "/"

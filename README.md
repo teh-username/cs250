@@ -9,4 +9,7 @@
 ```
 virtualenv -p python3 venv
 itap/bin/pip install -r requirements.txt
+
+docker pull tehusername/sysbench
+docker pull tehusername/stress
 ```

@@ -10,6 +10,10 @@ do
   echo 'Running noisy neighbor 2'
   docker run tehusername/stress stress -c 1 -t 45 &
   echo 'Running noisy neighbor 3'
+  docker run tehusername/stress stress -c 1 -t 45 &
+  echo 'Running noisy neighbor 4'
+  docker run tehusername/stress stress -c 1 -t 45 &
+  echo 'Running noisy neighbor 5'
   docker run tehusername/stress stress -c 1 -t 45
 done
 
